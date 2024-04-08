@@ -26,11 +26,11 @@ class TestPrimo(unittest.TestCase):
         self.assertEqual(result, True)
     
     def test_4(self):
-        result = is_primo(4)
+        result = is_primo(20)
         self.assertEqual(result, False)
     
     def test_5(self):
-        result = is_primo(5)
+        result = is_primo(29)
         self.assertEqual(result, True)
 
     def test_6(self):
